@@ -15,6 +15,7 @@ bonus = float(input("Digite o valor do bônus: "))
 bonus_final = CONSTANTE_BONUS + salario * bonus
 
 # 5) Imprima cálculo do KPI para o usuário
+print(bonus_final)
 
 # 6) Imprime a mensagem personalizada incluindo o nome do usuário, salário e bônus
 print(f"{nome} , seu bônus final é de R${bonus_final:.2f}")
