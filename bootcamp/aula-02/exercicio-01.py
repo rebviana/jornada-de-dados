@@ -14,6 +14,6 @@ def soma():
 # for executado diretamente e não quando for importado como um módulo em outro programa.
 # Isso é útil para organizar e reutilizar código.
 if __name__ == "__main__":
-    resultado = soma_dois_numeros()
+    resultado = soma()
     if resultado is not None:
         print("A soma dos dois números é: ", resultado)
