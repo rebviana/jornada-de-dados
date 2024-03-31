@@ -1,7 +1,7 @@
 # #### Inteiros (`int`)
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
 
-def soma_dois_numeros():
+def soma():
     try:
         numero1 = int(input("Digite o primeiro número inteiro: "))
         numero2 = int(input("Digite o segundo número inteiro: "))
