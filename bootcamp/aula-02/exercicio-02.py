@@ -1,7 +1,7 @@
 # #### Inteiros (`int`)
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 
-def calcular_resto_divisao_por_cinco():
+def resto_divisao_por_cinco():
     try:
         numero = int(input("Digite um número: "))
         resto = numero % 5
@@ -10,5 +10,5 @@ def calcular_resto_divisao_por_cinco():
         print("Por favor, digite um número válido.")
 
 if __name__ == "__main__":
-    calcular_resto_divisao_por_cinco()
+    resto_divisao_por_cinco()
 
